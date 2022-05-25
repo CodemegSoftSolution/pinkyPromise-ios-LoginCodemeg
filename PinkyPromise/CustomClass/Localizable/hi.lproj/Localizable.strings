@@ -1,0 +1,93 @@
+
+"cancel" = "Cancel";
+"ok" = "Ok";
+"yes" = "Yes";
+"confirmation" = "Confirmation";
+
+"enter_email" = "Please enter your email";
+"invalid_email" = "Invalid email";
+"enter_password" = "Please enter your password";
+"enter_confirm_password" = "Please enter confirm password";
+"enter_temp_password" = "Please enter temporary password";
+"password_confirm_password" = "Password and confirm password must be same";
+"check_terms_condition" = "Please accept our privacy policy to countinue";
+
+"enter_otp" = "OTP enter kijiye";
+"enter_contact" = "Aapka phone no enter kijiye, verification ke liye";
+"enter_refferal" = "Aapka referral code enter kijiye";
+"enter_contact_code" = "Please select your contact code";
+"complete_your_profile" = "PROFILE COMPLETE KARO";
+"profile_activity_heading" = "Aapke baare me bataiye";
+"hint_profile_name" = "Naam ya nickname";
+"before_we_start" = "";
+
+"select_height" = "Please select height";
+"select_weight" = "Please select weight";
+"select_gender" = "Please select gender";
+"period_date" = "Please Select period date";
+"remember_me" = "Please select remember me";
+"Server_error" = "Server error";
+"Male anatomy";
+
+"enter_nickname" = "Please enter your nick name";
+"select_dob" = "Please select your date of birth";
+
+"female_anatomy_text" = "Aapka gender biology se nahi aata hai aur humari soch yeh hai ki aapka ling, male, female ya inke beech me se kuch bhi ho sakta hai
+\nHumaare pages ko medical rekhne ke liye aur aapke choices ko respect dete hue, humne tay kiya hai ki hum aapke anatomy ke baare me poochenge - yaani, agar aapke sex organs ek penis or scroum hain (male anatomy), ya woh vagina (female anatomy)";
+
+
+"male_anatomy_text"  = "Abhi hum sift female anatomy waalon ke issues address karte hain.
+Aap aapke female anatome waale dost ke liye aap javaab doondh sakte hain is app mein.
+Aap jiske baare me poochna chahte hain, unka height, weight aur age enter kijiye";
+
+//CHATBOT
+"i_am_pinky" = "Me Pinky hun";
+"let_get_started" = "Shuru Karein";
+"my_expert_services" = "Mere services aapke liye hamesha hain \nAapke sehat ke liye";
+"let_begin_What_are_you_here" = "Shuru karete hain! Kya samasya hai?";
+"gynaecologist_verified_chatbot" = "Gynecologist sveekrit chatbot";
+
+
+"sure_you_want_to_logout" = "Are you sure you want to logout";
+
+
+
+"enter_name" = "Please enter name";
+"enter_addres_line1" = "Please enter address";
+"enter_postalcode" = "Please enter postal code";
+"enter_city" = "Please enter city";
+"enter_state" = "Please enter state";
+
+"must_above_18_year" = "You must be above 18 years old";
+
+
+
+
+//<?xml version="1.0" encoding="utf-8"?>
+//<resources>
+//    <string name="enter_mobile_text">Aapka phone no enter kijiye, verification ke liye</string>
+//    <string name="enter_otp_text">OTP enter kijiye</string>
+//    <string name="complete_your_profile">PROFILE COMPLETE KARO</string>
+//    <string name="profile_activity_heading">Aapke baare me bataiye</string>
+//    <string name="hint_profile_name">Naam ya nickname</string>
+//    <string name="before_we_start">Shuru karne se pehle</string>
+//    <string name="what_are_you_interested_in">Aap kin vishayon me interested hain?</string>
+//    <string name="female_anatomy_text"><![CDATA[
+//    Aapka gender biology se nahi aata hai aur humari soch yeh hai ki aapka ling, male, female ya inke beech me se kuch bhi ho sakta hai
+//<br />Humaare pages ko medical rekhne ke liye aur aapke choices ko respect dete hue, humne tay kiya hai ki hum aapke anatomy ke baare me poochenge - yaani, agar aapke sex organs ek penis or scroum hain (male anatomy), ya woh vagina (female anatomy)]]>
+//    </string>
+//    <string name="male_anatomy_text">Abhi hum sift female anatomy waalon ke issues address karte hain.
+//Aap aapke female anatome waale dost ke liye aap javaab doondh sakte hain is app mein.
+//Aap jiske baare me poochna chahte hain, unka height, weight aur age enter kijiye</string>
+//    <string name="topics_activity_heading">Hum aapko kaise help kar sakte hain?</string>
+//
+//    <string name="chat_with_pinky">Chat with Pinky</string>
+//    <string name="chat_bot_desc">Periods ke saath koi issue? vaginal discharge theek nahi hai? Garb nirodh ke baare mein doubts?</string>
+//    <string name="chat_bot_disclaimer"><![CDATA[Made using protocols of NHS, Mayo Clinic & more]]></string>
+//    <string name="coming_soon_products">"Humare products ke baare me aur jaano!</string>
+//    <string name="enter_chat_rooms"><![CDATA[Enter Chat rooms]]></string>
+//    <string name="chat_rooms_desc">Chatrooms me  sexual wellness, PCOS aur anek aise cheezon k baare me pooch sakte ho!</string>
+//    <string name="hinglish_dialog_body">Hinglish is hindi but written in english script. Aap ko hinglish ke lines aise dikhenge!</string>
+//
+//    <string name="multiple_choice_desc">Select one or more options</string>
+//</resources>

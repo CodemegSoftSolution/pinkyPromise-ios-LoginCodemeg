@@ -1,0 +1,17 @@
+[
+    {
+        "image" : "welcome1",
+        "title" : "Open App",
+        "desc" : "When you open the app once in 24hrs you get 3 coins"
+    },
+    {
+        "image" : "welcome2",
+        "title" : "Chatroom",
+        "desc" : "If you chat on the app once in 24hrs you get 5 coins"
+    },
+    {
+        "image" : "welcome3",
+        "title" : "Refer a friend",
+        "desc" : "For each successful user referral you get xx coins."
+    }
+]

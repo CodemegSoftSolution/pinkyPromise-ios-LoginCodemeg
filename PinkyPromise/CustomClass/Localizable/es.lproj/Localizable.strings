@@ -1,0 +1,215 @@
+
+
+"app_name" = "Real Collectors Only";
+"cancel" = "Cancelar";
+"ok" = "OK";
+"yes" = "sí";//"Yes";
+"will_stay" = "¡Me quedaré!";//"I'll stay!";
+"confirmation" = "Confirmación";//"Confirmation";
+"search" = "Buscar";
+"no_results_found" = "No Se Han Encontrado Resultados.";//"No Results Found.";
+"select_date" = "Seleccionar Fecha";//"Select Date...";
+"enter_label" = "Ingrese Etiqueta";//"Enter Label";
+"enter_color" = "Ingrese Color";//"Enter Color";
+"edit" = "Editar";//"Edit";
+"delete" = "Eliminar";//"Delete";
+"select_reason" = "Seleccionar motivo";//"Select Reason";
+"sure_you_want_to_logout" = "¿Estás seguro de que quieres cerrar sesión?";//"Are you sure you want to logout?";
+"choose_icon" = "Elegir icono";//"Choose Icon";
+"camera" = "Cámara";//"Camera";
+"upload_image" = "Cargar imagen";//"Upload Image";
+
+//TabBar
+"explore_tab" = "Explorar";//"Explore";
+"my_listi_tab" = "Mi Listado";//"My Listing";
+"messages_tab" = "Mensajes";//"Messages";
+"favorites_tab" = "Favoritos";//"Favorites";
+"add_from_collection" = "Agregar de la colección";
+"add_new_items" = "Agregar Nuevos Elementos";
+
+//MARK: - MainStoryboard
+//MARK: - OnBoardings
+"on_boarding_one" = "Agregue hasta 5 colecciones";
+"on_boarding_two" = "Organice, clasifique y busque en su\ncolección completa";
+"on_boarding_three" = "Compra, vende e intercambia con\notros coleccionistas";
+"btn_login" = "Iniciar sesión";
+"btn_login_create_account" = "Iniciar sesión / Crear una cuenta";
+"btn_create_account" = "Crea una cuenta";
+
+
+//MARK: - LoginTab  or SignUoTab
+"enter_first_name" = "Por favor ingrese el nombre";//"Kindly enter first name";
+"enter_email" = "Por favor ingrese el correo electrónico";//"Kindly enter email";
+"enter_last_name" = "Por favor ingrese el apellido";//"Kindly enter last name";
+"enter_user_name" = "Por favor ingrese el nombre de usuario";//"Kindly enter user name";
+"valid_email_address" = "Esta no es una dirección de correo electrónico válida.";//"This is not a valid email address";
+"enter_password" = "Por favor ingrese la contraseña";//"Kindly enter password";
+"enter_confirm_password" = "Por favor ingrese confirmar contraseña";//"Kindly enter confirm password";
+"doesnt_match" = "La contraseña no coincide";//"Password doesn't match";
+"already_have_account" = "¿Ya tienes una cuenta?";//"Already have an account?";
+
+//MARK: - VerificationVC
+"sign_up_verify_email_message" = "Se ha enviado un enlace de correo electrónico de verificación a su cuenta. Verifique para iniciar sesión.";//"A verification email link has been send to your account. Please verify to login.";
+"forgot_pass_success_message" = "Se ha enviado un enlace para restablecer su contraseña a su cuenta de correo electrónico registrada.";//"A link to reset your password has been sent to your registered email account.";
+"forget_password" = "Contraseña olvidada";//"Forget Password";
+
+//MARK :- SubscriptionVC
+"cancel_the_subscription" = "¡Odiamos verte partir! \n¿Estas seguro que quieres cancelar?";//"We hate to see you go! \nAre you sure you want to cancel?";
+
+//MARK: - WelcomeVC
+"select_collection_number" = "Seleccione el número de colección";//"Please select collection number";
+
+//MARK: - WelcomeVC
+
+//MARK :- AddCollectinoVC
+"collection" = "Colecciones";//"Collection";
+"enter_collection_name" = "Ingrese el nombre de la colección";//"Please enter collection name";
+"enter_collection_icon" = "Seleccione los iconos de la colección";//"Please select collection icons";
+"collection_no_data_error" = "Asegúrese de que haya seleccionado un icono y que el nombre se haya introducido correctamente.";//"Please make sure an icon is selected and name is entered properly.";
+
+//MARK: - SubscriptionListVC
+"select_subscription_plan" = "Seleccione un plan de suscripción";//"Please select subscription plan";
+
+
+//MARK: - HomeStoryboard
+//MARK: - HomeVC
+"renew_subscription_for_add_collection" = "Renueve la suscripción para agregar más colección";//"Please renew subscription for add more collection";
+
+//MARK: - AddItemVC
+"add_some_labels_before_continuing" = "Agregue algunas etiquetas antes de continuar.";//"Please add some labels before continuing.";
+"pick_atleast_one_image" = "Elija al menos una imagen antes de continuar.";//"Please pick atleast one image before continuing.";
+"select_expected_return_date_or_lent" = "Seleccione la fecha de devolución prevista o la fecha de vencimiento.";//"Please select expected return date or lent out date.";
+"added_successfully" = "Agregado Exitosamente.";//"Added Successfully";
+
+//MARK: - ItemDetailVC
+"item_has_been_successfully_deleted" = "¡El artículo ha sido eliminado correctamente!";//"Item has been successfully deleted!";
+
+
+//MARK: - MarketPlaceStoryboard
+//MARK: - SideMenuVC
+"collections" = "Colecciones";//"Collections";
+"notifications" = "Notificaciones";//"Notifications";
+"calendar" = "Calendario";//"Calendar";
+"marketplace" = "Mercado";//"Marketplace";
+"wishlist" = "Lista de deseos";//"Wishlist";
+"profile" = "Perfil";//"Profile";
+"rate_app" = "Calificar La Aplicación";//"Rate App";
+"suggestions" = "Sugerencias";//"Suggestions";
+"profile_settings_and_turn_on_marketplace" = "Vaya a Configuración de perfil y active Mercado para acceder.";//"Go to Profile Settings and turn on Marketplace to access";
+"app_is_not_uploaded_to_app_store" = "La aplicación no está cargada en la tienda de aplicaciones.";//"App is not uploaded to app store";
+
+
+//MARK: - ProductDescriptionVC
+"report_item" = "Artículo De Informe";//"Report Item";
+"block_user" = "Bloquear Usuario";//"Block User";
+"report_user" = "Informar De Usuario";//"Report User";
+"rate_user" = "Calificar Usuario";//"Rate User";
+"blocked_successfully" = "Bloqueado con éxito.";//"Blocked successfully";
+"mark_as_sold" = "Marcar como vendido";//"Mark as Sold";
+
+//MARK: - ReportItemVC
+"reported_successfully" = "Reportado Exitosamente.";//"Reported Successfully";
+"please_enter_review" = "Ingrese revisión.";//"Please enter review.";
+"please_choose_rating" = "Por favor elija calificación";//"Please choose rating";
+"submitted_successfully" = "Su pregunta ha sido enviada al administrador con éxito.";//"Submitted successfully";
+
+//MARK: - SuggestionsVC
+"please_enter_message" = "Por favor ingrese el mensaje";//"Please enter message";
+
+//MARK: - CalenderVC
+"is_expiring_soon" = "expira pronto!";//"is expiring soon!";
+
+//MARK: - CreateReminderVC
+"edit_reminder" = "Editar recordatorio";//"Edit Reminder";
+"create_reminder" = "Crear Recordatorio";//"Create Reminder";
+"choose_start_time" = "Elija la hora de inicio";//"Choose Start Time";
+"select_notify_time" = "Elija la hora de inicio";//"Select Notify Time";
+"enter_name_of_item" = "Ingrese el nombre del artículo";//"Please enter name of item";
+"please_enter_website" = "Por favor ingrese al sitio web";//"Please enter website";
+"please_select_date" = "Por favor seleccione la fecha";//"Please select date";
+"please_select_time" = "Por favor seleccione hora";//"Please select time";
+"reminder_item" = "Elemento recordatorio";//"Reminder item";
+"will_be_available_in" = "estará disponible en";//"will be available in";
+
+//MARK: - RatingListVC
+"reviews_zero" = "Reseñas 0";//"Reviews 0";
+
+
+//MARK: - MyListingStoryboard
+//MARK: - ItemsListVC
+"please_select_labels" = "Seleccione etiquetas";//"Please select labels";
+
+
+//MARK: - FavoriteStoryboard
+//MARK: - AddWishlistVC
+"edit_wishlist_item" = "Editar Artículo De Lista De Deseos";//"Edit Wishlist Item";
+"add_wishlist_item" = "Añadir Artículo De Lista De Deseos";//"Add Wishlist Item";
+"please_enter_description" = "Por favor ingrese una descripción";//"Please enter description";
+"please_enter_price" = "Por favor ingrese el precio";//"Please enter price";
+"please_enter_website" = "Por favor ingrese al sitio web";//"Please enter website";
+"select_before_time" = "Por favor seleccione antes de tiempo";//"Please select before time";
+
+//MARK: -
+"wishlist_item" = "Artículo de la lista de deseos";//"Wishlist item";
+
+//MARK: - ProfileStoryboard
+//MARK: - AboutusVC
+"about_us" = "Sobre Nosotros";//"About Us";
+"terms_conditions" = "Términos y condiciones";//"Terms & Conditions";
+"privacy_policy" = "Política De Privacidad";//"Privacy Policy";
+
+//MARK: - CardListVC
+"sure_you_want_to_remove_your_card" = "¿Estás seguro de que quieres eliminar tu tarjeta?";//"Are you sure you want to remove your card?";
+
+//MARK: - AddNewCardVC
+"kindly_enter_your_name" = "Por favor ingrese su nombre";//"Kindly enter your name";
+"kindly_enter_your_card_number" = "Por favor ingrese su número de tarjeta";//"Kindly enter your card number";
+"kindly_select_expiry_month" = "Por favor seleccione el mes de vencimiento";//"Kindly select expiry month";
+"kindly_select_expiry_year" = "Por favor, seleccione el año de vencimiento.";//"Kindly select expiry year";
+"kindly_enter_your_cvv" = "Por favor ingrese su cvv";//"Kindly enter your cvv";
+"select_month" = "Seleccione mes";//"Select Month";
+"select_year" = "Seleccionar año";//"Select Year";
+"remove_card" = "Quitar tarjeta";//"Remove Card";
+
+//MARK: - enum
+"possible_scam" = "Posible estafa";
+"duplicate_listing" = "Listado duplicado";
+"wrong_category" = "Categoría incorrecta";
+"inappropriate" = "Inadecuado";
+"other" = "Otros";
+
+"sent_not_as_advertised" = "Producto enviado no como se anuncia";
+"user_scammed_me" = "El usuario me estafó";
+"inappropriate_messages" = "Mensajes inapropiados";
+
+"time1" = "5 minutos antes";
+"time2" = "10 minutos antes";
+"time3" = "15 minutos antes";
+"time4" = "30 minutos antes";
+"time5" = "1 hora antes";
+"time6" = "24 horas antes";
+
+
+//SIDEMENU
+"menu1" = "Sobre Nosotros";//"About Us";
+"menu2" = "Términos y condiciones";//"Terms & Condition";
+"menu3" = "Política De Privacidad";//"Privacy Policy";
+"menu4" = "Configuraciones de la cuenta";//"Account Settings";
+"menu5" = "Ayudar";//"Help";
+"menu6" = "Cerrar sesión";//"Logout";
+
+"add_Collection_label1" = "Agregue las colecciones que desee en su aplicación.";//"Add collections you want in your app.";
+"add_Collection_label2" = "Nota: Puede seleccionar hasta 5 colecciones con suscripción.";//"Note : You can select up to 5 collections with subscription";
+"subscribe_now" = "Suscríbase Ahora";//"Subscribe Now";
+"continue" = "Continuar";//"Continue";
+"restart" = "Reanudar";//"Restart";
+"start" = "Comienzo";//"Start";
+"restart_label" = "Nota: Debe reiniciar para reflejar estas colecciones en su aplicación.";//"Note : You have to Restart for reflect these collection in your app.";
+"start_message_label" = "Nota: Debe comenzar a reflejar estas colecciones en su aplicación.";//"Note : You have to Start to reflect these collection(s) in your app.";
+"delete_confirmation_message" = "¿Estás seguro de que deseas eliminar esta colección?";//"Are you sure you want to delete this Collection?";
+"add_collection" = "Agregar colección";//"Add Collection";
+"edit_collection" = "Editar colección";//"Edit Collection";
+"save" = "Ahorrar";//"Save";
+"add" = "Agregar";//"Add";
+"collection_name" = "Nombre de la colección";//"Collection Name";
+"you_can_only_add_5_collections" = "Solo puede agregar hasta 5 colecciones.";//"You can only add upto 5 collections.";

@@ -1,0 +1,26 @@
+[
+    {
+        "question":"What all can I earn coins for?",
+        "answer":"Every time someone likes your message on chatrooms, you earn 10 coins.\nEverytime someone creates a profile on our app using your referral code, you earn 50 coins\nPinky Promise reserves the right to change any rules regarding coin allocation, usage, expiry and reimbursement without giving any prior notice",
+    },
+    {
+        "question":"What are these coins redeemable for?",
+        "answer":"As of now, you can use the coins you have earnt on Pinky Promise to be able to purchase products listed on our “shop” tab. Pinky Promise reserves the right to change any rules regarding coin allocation, usage, expiry and reimbursement without giving any prior notice",
+    },
+    {
+        "question":"Can I use the same coin more than once?",
+        "answer":"No, you cannot use the same coin more than once. Upon using a set number of coins, those coins will be deducted from your total. Pinky Promise reserves the right to change any rules regarding coin allocation, usage, expiry and reimbursement without giving any prior notice",
+    },
+    {
+        "question":"When do my coins expire?",
+        "answer":"Coins do not expire. You can redeem your coins anytime. Pinky Promise reserves the right to change any rules regarding coin allocation, usage, expiry and reimbursement without giving any prior notice",
+    },
+    {
+        "question":"Can I gift my coins to someone else?",
+        "answer":"No. Coins are non-transferable and non-giftable.",
+    },
+    {
+        "question":"If I think there is a problem or miscalculation of my coins, what to do?",
+        "answer":"Shoot us an email on contact@askpinkypromise.com with a screenshot of your exact issue and an explanation. Our team will be with you soon!",
+    }
+]

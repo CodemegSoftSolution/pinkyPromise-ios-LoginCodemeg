@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Kurale-Regular.ttf">
+            <string>Kurale-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="OrderProductTVC" customModule="PinkyPromise" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="130"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="130"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vup-yh-9B3" customClass="View" customModule="PinkyPromise" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="130"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="mjY-h0-hu2" customClass="ImageView" customModule="PinkyPromise" customModuleProvider="target">
+                                <rect key="frame" x="16" y="5" width="120" height="120"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="Tb1-ii-lX2"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Berry Magical" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FWn-H0-KM9">
+                                <rect key="frame" x="146" y="34" width="164" height="17.5"/>
+                                <fontDescription key="fontDescription" name="Kurale-Regular" family="Kurale" pointSize="15"/>
+                                <color key="textColor" name="DarkText"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Quantity : 1" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nmt-Mt-dl6">
+                                <rect key="frame" x="146" y="57.5" width="164" height="15.5"/>
+                                <fontDescription key="fontDescription" name="Kurale-Regular" family="Kurale" pointSize="13"/>
+                                <color key="textColor" name="LightText"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Amount : INR 100" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NhN-gI-KWn">
+                                <rect key="frame" x="146" y="79" width="164" height="15.5"/>
+                                <fontDescription key="fontDescription" name="Kurale-Regular" family="Kurale" pointSize="13"/>
+                                <color key="textColor" name="LightText"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="NhN-gI-KWn" firstAttribute="top" secondItem="nmt-Mt-dl6" secondAttribute="bottom" constant="6" id="4Xs-Vo-k70"/>
+                            <constraint firstItem="NhN-gI-KWn" firstAttribute="leading" secondItem="nmt-Mt-dl6" secondAttribute="leading" id="6QR-rn-S7w"/>
+                            <constraint firstAttribute="trailing" secondItem="nmt-Mt-dl6" secondAttribute="trailing" constant="10" id="99X-tQ-ULU"/>
+                            <constraint firstAttribute="trailing" secondItem="FWn-H0-KM9" secondAttribute="trailing" constant="10" id="Hlu-kY-eJr"/>
+                            <constraint firstAttribute="height" constant="130" id="Pee-iW-Zk6"/>
+                            <constraint firstItem="FWn-H0-KM9" firstAttribute="leading" secondItem="mjY-h0-hu2" secondAttribute="trailing" constant="10" id="X53-Hw-5Ar"/>
+                            <constraint firstItem="nmt-Mt-dl6" firstAttribute="top" secondItem="FWn-H0-KM9" secondAttribute="bottom" constant="6" id="as9-mb-AB2"/>
+                            <constraint firstItem="nmt-Mt-dl6" firstAttribute="centerY" secondItem="vup-yh-9B3" secondAttribute="centerY" id="eTf-QR-7o8"/>
+                            <constraint firstItem="mjY-h0-hu2" firstAttribute="leading" secondItem="vup-yh-9B3" secondAttribute="leading" constant="16" id="kM6-L6-gWc"/>
+                            <constraint firstItem="mjY-h0-hu2" firstAttribute="top" secondItem="vup-yh-9B3" secondAttribute="top" constant="5" id="mH1-zU-Hef"/>
+                            <constraint firstAttribute="bottom" secondItem="mjY-h0-hu2" secondAttribute="bottom" constant="5" id="mWa-sm-fjg"/>
+                            <constraint firstAttribute="trailing" secondItem="NhN-gI-KWn" secondAttribute="trailing" constant="10" id="mdY-2d-VeD"/>
+                            <constraint firstItem="nmt-Mt-dl6" firstAttribute="leading" secondItem="FWn-H0-KM9" secondAttribute="leading" id="tar-n2-ynZ"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="vup-yh-9B3" secondAttribute="bottom" id="1Oz-PG-ZDf"/>
+                    <constraint firstItem="vup-yh-9B3" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="6B2-42-78C"/>
+                    <constraint firstAttribute="trailing" secondItem="vup-yh-9B3" secondAttribute="trailing" id="EIr-SW-wzz"/>
+                    <constraint firstItem="vup-yh-9B3" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="yRx-rf-6Ft"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="firstProductBackView" destination="vup-yh-9B3" id="L7D-7J-u5M"/>
+                <outlet property="productAmountLbl" destination="NhN-gI-KWn" id="hDA-hJ-qmb"/>
+                <outlet property="productImgView" destination="mjY-h0-hu2" id="32W-RW-bSA"/>
+                <outlet property="productQuantityLbl" destination="nmt-Mt-dl6" id="jIB-sK-qBm"/>
+                <outlet property="productnNameLbl" destination="FWn-H0-KM9" id="pET-dk-Hm5"/>
+            </connections>
+            <point key="canvasLocation" x="142" y="122"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="DarkText">
+            <color red="0.14100000262260437" green="0.15299999713897705" blue="0.16899999976158142" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="LightText">
+            <color red="0.34099999070167542" green="0.34900000691413879" blue="0.36100000143051147" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

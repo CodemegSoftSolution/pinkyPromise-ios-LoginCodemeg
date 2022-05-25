@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Kurale-Regular.ttf">
+            <string>Kurale-Regular</string>
+        </array>
+        <array key="PlayfairDisplay-VariableFont_wght.ttf">
+            <string>PlayfairDisplay-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="ChatbotResultTVC" customModule="PinkyPromise" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="66"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="66"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bZy-bt-ND8">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="66"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Summary" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tZd-S7-paq">
+                                <rect key="frame" x="20" y="8" width="280" height="27"/>
+                                <fontDescription key="fontDescription" name="Kurale-Regular" family="Kurale" pointSize="18"/>
+                                <color key="textColor" name="Pink"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="99% effective but it takes about 3 months " lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bab-Im-Mgi">
+                                <rect key="frame" x="20" y="37" width="280" height="20"/>
+                                <fontDescription key="fontDescription" name="PlayfairDisplay-Regular" family="Playfair Display" pointSize="15"/>
+                                <color key="textColor" name="DarkText"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="GSu-hN-Lg4">
+                                <rect key="frame" x="15" y="37" width="290" height="21"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="yfg-Q3-1Sc"/>
+                                </constraints>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" name="PlayfairDisplay-Regular" family="Playfair Display" pointSize="15"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="tZd-S7-paq" firstAttribute="top" secondItem="bZy-bt-ND8" secondAttribute="top" constant="8" id="FW7-XM-KCY"/>
+                            <constraint firstAttribute="bottom" secondItem="bab-Im-Mgi" secondAttribute="bottom" constant="9" id="GKc-Bo-V9J"/>
+                            <constraint firstItem="tZd-S7-paq" firstAttribute="leading" secondItem="bZy-bt-ND8" secondAttribute="leading" constant="20" id="GKl-1a-dOH"/>
+                            <constraint firstAttribute="trailing" secondItem="tZd-S7-paq" secondAttribute="trailing" constant="20" id="Pd2-sy-OYO"/>
+                            <constraint firstAttribute="trailing" secondItem="GSu-hN-Lg4" secondAttribute="trailing" constant="15" id="SpZ-FW-iH7"/>
+                            <constraint firstAttribute="trailing" secondItem="bab-Im-Mgi" secondAttribute="trailing" constant="20" id="fbF-LX-Xmh"/>
+                            <constraint firstItem="GSu-hN-Lg4" firstAttribute="leading" secondItem="bZy-bt-ND8" secondAttribute="leading" constant="15" id="jv1-Ib-Uqe"/>
+                            <constraint firstAttribute="bottom" secondItem="GSu-hN-Lg4" secondAttribute="bottom" constant="8" id="nzU-NV-Fg3"/>
+                            <constraint firstItem="GSu-hN-Lg4" firstAttribute="top" secondItem="tZd-S7-paq" secondAttribute="bottom" constant="2" id="wuH-yV-YkQ"/>
+                            <constraint firstItem="bab-Im-Mgi" firstAttribute="leading" secondItem="bZy-bt-ND8" secondAttribute="leading" constant="20" id="y3T-Cc-O1N"/>
+                            <constraint firstItem="bab-Im-Mgi" firstAttribute="top" secondItem="tZd-S7-paq" secondAttribute="bottom" constant="2" id="zQm-WL-a7v"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="bZy-bt-ND8" secondAttribute="bottom" id="6yi-tp-9xF"/>
+                    <constraint firstItem="bZy-bt-ND8" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Nrs-7G-i4K"/>
+                    <constraint firstAttribute="trailing" secondItem="bZy-bt-ND8" secondAttribute="trailing" id="P88-Wp-3Gs"/>
+                    <constraint firstItem="bZy-bt-ND8" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="sRW-JX-4m2"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="ansLbl" destination="bab-Im-Mgi" id="cFi-9H-JGk"/>
+                <outlet property="ansTxtView" destination="GSu-hN-Lg4" id="VUa-1W-xJr"/>
+                <outlet property="questionLbl" destination="tZd-S7-paq" id="coQ-G4-j4a"/>
+                <outlet property="textviewHeightConstraint" destination="yfg-Q3-1Sc" id="L33-FT-r1K"/>
+            </connections>
+            <point key="canvasLocation" x="140.57971014492756" y="116.51785714285714"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="DarkText">
+            <color red="0.14100000262260437" green="0.15299999713897705" blue="0.16899999976158142" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Pink">
+            <color red="1" green="0.55699998140335083" blue="0.54900002479553223" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="PlayfairDisplay-VariableFont_wght.ttf">
+            <string>PlayfairDisplay-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="KGk-i7-Jjw" customClass="AnswerTVC" customModule="PinkyPromise" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="65"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="65"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1HX-xQ-viK">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="65"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FDF-DX-p8q" customClass="View" customModule="PinkyPromise" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="10" width="320" height="44.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Irregular-late or no periods" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qie-2E-5CN">
+                                        <rect key="frame" x="8" y="11" width="307" height="21.5"/>
+                                        <fontDescription key="fontDescription" name="PlayfairDisplay-Regular" family="Playfair Display" pointSize="16"/>
+                                        <color key="textColor" name="DarkText"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="Qie-2E-5CN" secondAttribute="trailing" constant="5" id="5xt-aB-GTQ"/>
+                                    <constraint firstItem="Qie-2E-5CN" firstAttribute="top" secondItem="FDF-DX-p8q" secondAttribute="top" constant="11" id="B8w-Ve-cdC"/>
+                                    <constraint firstAttribute="bottom" secondItem="Qie-2E-5CN" secondAttribute="bottom" constant="12" id="UCf-a0-RUA"/>
+                                    <constraint firstItem="Qie-2E-5CN" firstAttribute="leading" secondItem="FDF-DX-p8q" secondAttribute="leading" constant="8" id="pmK-Hs-1B3"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="FDF-DX-p8q" firstAttribute="leading" secondItem="1HX-xQ-viK" secondAttribute="leading" id="Had-BI-PB5"/>
+                            <constraint firstItem="FDF-DX-p8q" firstAttribute="top" secondItem="1HX-xQ-viK" secondAttribute="top" constant="10" id="Q1g-HP-ieV"/>
+                            <constraint firstAttribute="bottom" secondItem="FDF-DX-p8q" secondAttribute="bottom" constant="10.5" id="daK-Yb-UED"/>
+                            <constraint firstAttribute="trailing" secondItem="FDF-DX-p8q" secondAttribute="trailing" id="lUJ-YS-uCC"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="1HX-xQ-viK" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="63c-B2-1Kv"/>
+                    <constraint firstAttribute="bottom" secondItem="1HX-xQ-viK" secondAttribute="bottom" id="N14-hZ-oSb"/>
+                    <constraint firstAttribute="trailing" secondItem="1HX-xQ-viK" secondAttribute="trailing" id="Rca-8A-aQW"/>
+                    <constraint firstItem="1HX-xQ-viK" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="o2s-0N-6UP"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="answerLbl" destination="Qie-2E-5CN" id="8mm-tF-QmS"/>
+                <outlet property="backView" destination="FDF-DX-p8q" id="0Ni-VO-wXL"/>
+            </connections>
+            <point key="canvasLocation" x="-407.24637681159425" y="121.875"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="DarkText">
+            <color red="0.14100000262260437" green="0.15299999713897705" blue="0.16899999976158142" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Kurale-Regular.ttf">
+            <string>Kurale-Regular</string>
+        </array>
+        <array key="PlayfairDisplay-VariableFont_wght.ttf">
+            <string>PlayfairDisplay-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="KGk-i7-Jjw" customClass="ChatGroupTVC" customModule="PinkyPromise" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="90"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="90"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9Jo-kZ-iAZ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="90"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sexual Wellness" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IDS-Ef-wKR">
+                                <rect key="frame" x="80" y="20" width="127" height="27"/>
+                                <fontDescription key="fontDescription" name="Kurale-Regular" family="Kurale" pointSize="18"/>
+                                <color key="textColor" red="1" green="0.20000000000000001" blue="0.2627450980392157" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3:17pm" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HSX-8y-lnT">
+                                <rect key="frame" x="262.5" y="20" width="37.5" height="18"/>
+                                <fontDescription key="fontDescription" name="Kurale-Regular" family="Kurale" pointSize="12"/>
+                                <color key="textColor" name="LightText"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sexual Wellness" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uhf-SA-Wlx">
+                                <rect key="frame" x="80" y="50" width="181.5" height="20"/>
+                                <fontDescription key="fontDescription" name="PlayfairDisplay-Regular" family="Playfair Display" pointSize="15"/>
+                                <color key="textColor" name="LightText"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="3q9-jQ-P2A" customClass="ImageView" customModule="PinkyPromise" customModuleProvider="target">
+                                <rect key="frame" x="20" y="20" width="50" height="50"/>
+                                <color key="backgroundColor" name="LightPink"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="rhp-4w-hqq"/>
+                                    <constraint firstAttribute="width" constant="50" id="zjo-wP-0MN"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cta-7v-ISJ" customClass="Button" customModule="PinkyPromise" customModuleProvider="target">
+                                <rect key="frame" x="269.5" y="46" width="24" height="24"/>
+                                <color key="backgroundColor" name="Pink"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="Vn9-UT-nIZ"/>
+                                    <constraint firstAttribute="width" constant="24" id="wKr-Qr-6uZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Kurale-Regular" family="Kurale" pointSize="11"/>
+                                <state key="normal" title="99"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="12"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ICb-fY-dDQ">
+                                <rect key="frame" x="20" y="89" width="280" height="1"/>
+                                <color key="backgroundColor" systemColor="systemGray6Color"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="FMM-KX-UqT"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tgl-Lj-OYg">
+                                <rect key="frame" x="25" y="25" width="40" height="40"/>
+                                <color key="tintColor" red="1" green="0.20000000000000001" blue="0.26274509800000001" alpha="1" colorSpace="calibratedRGB"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="3q9-jQ-P2A" firstAttribute="leading" secondItem="9Jo-kZ-iAZ" secondAttribute="leading" constant="20" id="4GP-Cr-Bax"/>
+                            <constraint firstItem="Uhf-SA-Wlx" firstAttribute="leading" secondItem="IDS-Ef-wKR" secondAttribute="leading" id="GYT-hT-beM"/>
+                            <constraint firstItem="cta-7v-ISJ" firstAttribute="leading" secondItem="Uhf-SA-Wlx" secondAttribute="trailing" constant="8" id="HRa-qN-E8I"/>
+                            <constraint firstItem="tgl-Lj-OYg" firstAttribute="top" secondItem="3q9-jQ-P2A" secondAttribute="top" constant="5" id="Ll5-6F-mOG"/>
+                            <constraint firstItem="3q9-jQ-P2A" firstAttribute="top" secondItem="9Jo-kZ-iAZ" secondAttribute="top" constant="20" id="Np0-uP-3pI"/>
+                            <constraint firstItem="IDS-Ef-wKR" firstAttribute="top" secondItem="3q9-jQ-P2A" secondAttribute="top" id="OHC-yr-osp"/>
+                            <constraint firstItem="HSX-8y-lnT" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="IDS-Ef-wKR" secondAttribute="trailing" constant="8" id="ORJ-Sv-gjU"/>
+                            <constraint firstItem="cta-7v-ISJ" firstAttribute="top" secondItem="HSX-8y-lnT" secondAttribute="bottom" constant="8" id="QvN-PX-Kcm"/>
+                            <constraint firstItem="ICb-fY-dDQ" firstAttribute="top" secondItem="Uhf-SA-Wlx" secondAttribute="bottom" constant="19" id="Sjg-uX-Rpi"/>
+                            <constraint firstAttribute="bottom" secondItem="ICb-fY-dDQ" secondAttribute="bottom" id="UUi-Pa-eRG"/>
+                            <constraint firstItem="ICb-fY-dDQ" firstAttribute="leading" secondItem="9Jo-kZ-iAZ" secondAttribute="leading" constant="20" id="Zq5-ph-v7M"/>
+                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="3q9-jQ-P2A" secondAttribute="bottom" constant="20" id="dqx-8i-ubZ"/>
+                            <constraint firstItem="Uhf-SA-Wlx" firstAttribute="top" secondItem="IDS-Ef-wKR" secondAttribute="bottom" constant="3" id="fjs-0C-ZYq"/>
+                            <constraint firstItem="HSX-8y-lnT" firstAttribute="top" secondItem="IDS-Ef-wKR" secondAttribute="top" id="gn6-zb-kWC"/>
+                            <constraint firstItem="tgl-Lj-OYg" firstAttribute="trailing" secondItem="3q9-jQ-P2A" secondAttribute="trailing" constant="-5" id="lVt-5o-Zfv"/>
+                            <constraint firstItem="tgl-Lj-OYg" firstAttribute="bottom" secondItem="3q9-jQ-P2A" secondAttribute="bottom" constant="-5" id="oEZ-tA-QXq"/>
+                            <constraint firstItem="IDS-Ef-wKR" firstAttribute="leading" secondItem="3q9-jQ-P2A" secondAttribute="trailing" constant="10" id="onB-g4-0Vt"/>
+                            <constraint firstItem="tgl-Lj-OYg" firstAttribute="leading" secondItem="3q9-jQ-P2A" secondAttribute="leading" constant="5" id="rGm-FF-0le"/>
+                            <constraint firstItem="HSX-8y-lnT" firstAttribute="centerX" secondItem="cta-7v-ISJ" secondAttribute="centerX" id="tfT-ca-63d"/>
+                            <constraint firstAttribute="trailing" secondItem="HSX-8y-lnT" secondAttribute="trailing" constant="20" id="u49-ji-ug3"/>
+                            <constraint firstAttribute="trailing" secondItem="ICb-fY-dDQ" secondAttribute="trailing" constant="20" id="zJ7-Ch-Gzk"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="9Jo-kZ-iAZ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Aud-8x-4dt"/>
+                    <constraint firstAttribute="bottom" secondItem="9Jo-kZ-iAZ" secondAttribute="bottom" id="CSc-9w-2lv"/>
+                    <constraint firstAttribute="trailing" secondItem="9Jo-kZ-iAZ" secondAttribute="trailing" id="LzU-SH-9u5"/>
+                    <constraint firstItem="9Jo-kZ-iAZ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="t5S-yi-S3c"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="imgBtn" destination="tgl-Lj-OYg" id="jPb-f5-FGB"/>
+                <outlet property="imgaView" destination="3q9-jQ-P2A" id="e7v-uT-oBv"/>
+                <outlet property="messageLbl" destination="Uhf-SA-Wlx" id="IsK-ho-YKK"/>
+                <outlet property="timeLbl" destination="HSX-8y-lnT" id="a84-TH-TVq"/>
+                <outlet property="topicNameLbl" destination="IDS-Ef-wKR" id="0mf-Nq-yMG"/>
+                <outlet property="unReadCountBtn" destination="cta-7v-ISJ" id="WiQ-Wx-Zfl"/>
+            </connections>
+            <point key="canvasLocation" x="140.57971014492756" y="116.51785714285714"/>
+        </tableViewCell>
+    </objects>
+    <designables>
+        <designable name="cta-7v-ISJ">
+            <size key="intrinsicContentSize" width="30" height="29"/>
+        </designable>
+    </designables>
+    <resources>
+        <namedColor name="LightPink">
+            <color red="1" green="0.87099999189376831" blue="0.85500001907348633" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="LightText">
+            <color red="0.34099999070167542" green="0.34900000691413879" blue="0.36100000143051147" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Pink">
+            <color red="1" green="0.55699998140335083" blue="0.54900002479553223" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemGray6Color">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

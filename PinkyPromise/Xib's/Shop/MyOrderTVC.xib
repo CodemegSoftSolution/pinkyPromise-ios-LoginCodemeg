@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Kurale-Regular.ttf">
+            <string>Kurale-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="MyOrderTVC" customModule="PinkyPromise" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="355"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="355"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="k1X-Ag-3qd">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="355"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Order 1" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BI9-fA-8s1">
+                                <rect key="frame" x="16" y="8" width="64.5" height="28.5"/>
+                                <fontDescription key="fontDescription" name="Kurale-Regular" family="Kurale" pointSize="19"/>
+                                <color key="textColor" name="DarkText"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Payment Pending" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CN9-Ui-A9c">
+                                <rect key="frame" x="153.5" y="8" width="150.5" height="22.5"/>
+                                <fontDescription key="fontDescription" name="Kurale-Regular" family="Kurale" pointSize="19"/>
+                                <color key="textColor" name="DarkText"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="6ub-q5-zxi">
+                                <rect key="frame" x="0.0" y="44.5" width="320" height="260"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9qw-mL-8GH" customClass="View" customModule="PinkyPromise" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="130"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Fd5-20-21m" customClass="ImageView" customModule="PinkyPromise" customModuleProvider="target">
+                                                <rect key="frame" x="16" y="5" width="120" height="120"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="120" id="Owq-Wt-4hC"/>
+                                                </constraints>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="10"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Berry Magical" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tt8-YA-XOX">
+                                                <rect key="frame" x="146" y="34" width="164" height="17.5"/>
+                                                <fontDescription key="fontDescription" name="Kurale-Regular" family="Kurale" pointSize="15"/>
+                                                <color key="textColor" name="DarkText"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Quantity : 1" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AJ1-03-nuT">
+                                                <rect key="frame" x="146" y="57.5" width="164" height="15.5"/>
+                                                <fontDescription key="fontDescription" name="Kurale-Regular" family="Kurale" pointSize="13"/>
+                                                <color key="textColor" name="LightText"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Amount : INR 100" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1U8-ER-KcV">
+                                                <rect key="frame" x="146" y="79" width="164" height="15.5"/>
+                                                <fontDescription key="fontDescription" name="Kurale-Regular" family="Kurale" pointSize="13"/>
+                                                <color key="textColor" name="LightText"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="Fd5-20-21m" firstAttribute="leading" secondItem="9qw-mL-8GH" secondAttribute="leading" constant="16" id="1iz-I0-tn6"/>
+                                            <constraint firstAttribute="trailing" secondItem="AJ1-03-nuT" secondAttribute="trailing" constant="10" id="2Jb-7E-bbK"/>
+                                            <constraint firstItem="1U8-ER-KcV" firstAttribute="leading" secondItem="AJ1-03-nuT" secondAttribute="leading" id="42E-9H-wgC"/>
+                                            <constraint firstItem="1U8-ER-KcV" firstAttribute="top" secondItem="AJ1-03-nuT" secondAttribute="bottom" constant="6" id="79j-pF-BQE"/>
+                                            <constraint firstAttribute="bottom" secondItem="Fd5-20-21m" secondAttribute="bottom" constant="5" id="BEx-SA-9tg"/>
+                                            <constraint firstItem="AJ1-03-nuT" firstAttribute="leading" secondItem="tt8-YA-XOX" secondAttribute="leading" id="LId-N4-szv"/>
+                                            <constraint firstItem="AJ1-03-nuT" firstAttribute="centerY" secondItem="9qw-mL-8GH" secondAttribute="centerY" id="QBD-FC-iXN"/>
+                                            <constraint firstItem="Fd5-20-21m" firstAttribute="top" secondItem="9qw-mL-8GH" secondAttribute="top" constant="5" id="VzI-fk-xGt"/>
+                                            <constraint firstItem="AJ1-03-nuT" firstAttribute="top" secondItem="tt8-YA-XOX" secondAttribute="bottom" constant="6" id="ahD-Ul-hWJ"/>
+                                            <constraint firstAttribute="trailing" secondItem="tt8-YA-XOX" secondAttribute="trailing" constant="10" id="cpC-kI-eTi"/>
+                                            <constraint firstItem="tt8-YA-XOX" firstAttribute="leading" secondItem="Fd5-20-21m" secondAttribute="trailing" constant="10" id="eJF-V3-eQR"/>
+                                            <constraint firstAttribute="height" constant="130" id="nFX-wF-GFI"/>
+                                            <constraint firstAttribute="trailing" secondItem="1U8-ER-KcV" secondAttribute="trailing" constant="10" id="x8R-lr-q0t"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IAP-R3-74X" customClass="View" customModule="PinkyPromise" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="130" width="320" height="130"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="L7h-tP-ghA" customClass="ImageView" customModule="PinkyPromise" customModuleProvider="target">
+                                                <rect key="frame" x="16" y="5" width="120" height="120"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="120" id="4ZU-x3-FMR"/>
+                                                </constraints>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="10"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Berry Magical" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n4a-sv-JgP">
+                                                <rect key="frame" x="146" y="34" width="164" height="17.5"/>
+                                                <fontDescription key="fontDescription" name="Kurale-Regular" family="Kurale" pointSize="15"/>
+                                                <color key="textColor" name="DarkText"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Quantity : 1" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q2E-Of-KQl">
+                                                <rect key="frame" x="146" y="57.5" width="164" height="15.5"/>
+                                                <fontDescription key="fontDescription" name="Kurale-Regular" family="Kurale" pointSize="13"/>
+                                                <color key="textColor" name="LightText"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Amount : INR 100" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k4I-5k-xyt">
+                                                <rect key="frame" x="146" y="79" width="158" height="15.5"/>
+                                                <fontDescription key="fontDescription" name="Kurale-Regular" family="Kurale" pointSize="13"/>
+                                                <color key="textColor" name="LightText"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="k4I-5k-xyt" secondAttribute="trailing" constant="16" id="1NG-vb-983"/>
+                                            <constraint firstItem="k4I-5k-xyt" firstAttribute="top" secondItem="q2E-Of-KQl" secondAttribute="bottom" constant="6" id="46x-M6-AT6"/>
+                                            <constraint firstAttribute="bottom" secondItem="L7h-tP-ghA" secondAttribute="bottom" constant="5" id="HFU-2r-7lC"/>
+                                            <constraint firstAttribute="height" constant="130" id="M9g-ba-4Ku"/>
+                                            <constraint firstItem="q2E-Of-KQl" firstAttribute="centerY" secondItem="IAP-R3-74X" secondAttribute="centerY" id="N8i-L9-Ttb"/>
+                                            <constraint firstItem="q2E-Of-KQl" firstAttribute="top" secondItem="n4a-sv-JgP" secondAttribute="bottom" constant="6" id="NUU-Ph-ESv"/>
+                                            <constraint firstItem="q2E-Of-KQl" firstAttribute="leading" secondItem="n4a-sv-JgP" secondAttribute="leading" id="V4e-wy-5KK"/>
+                                            <constraint firstAttribute="trailing" secondItem="n4a-sv-JgP" secondAttribute="trailing" constant="10" id="Zia-nI-cD6"/>
+                                            <constraint firstItem="L7h-tP-ghA" firstAttribute="leading" secondItem="IAP-R3-74X" secondAttribute="leading" constant="16" id="aks-Mj-m6q"/>
+                                            <constraint firstItem="k4I-5k-xyt" firstAttribute="leading" secondItem="q2E-Of-KQl" secondAttribute="leading" id="gH7-wr-DVf"/>
+                                            <constraint firstItem="L7h-tP-ghA" firstAttribute="top" secondItem="IAP-R3-74X" secondAttribute="top" constant="5" id="lI9-Mm-4nx"/>
+                                            <constraint firstAttribute="trailing" secondItem="q2E-Of-KQl" secondAttribute="trailing" constant="10" id="oLD-xQ-Fgv"/>
+                                            <constraint firstItem="n4a-sv-JgP" firstAttribute="leading" secondItem="L7h-tP-ghA" secondAttribute="trailing" constant="10" id="owu-ix-Rvk"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="Lwu-mL-LTz">
+                                <rect key="frame" x="16" y="306.5" width="288" height="36"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KUk-yx-kkd" customClass="Button" customModule="PinkyPromise" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="136" height="36"/>
+                                        <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="36" id="ini-dS-NYs"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Kurale-Regular" family="Kurale" pointSize="16"/>
+                                        <state key="normal" title="Cancel">
+                                            <color key="titleColor" name="DarkText"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="18"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="applyShadow" value="YES"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="93U-sF-Aa7" customClass="Button" customModule="PinkyPromise" customModuleProvider="target">
+                                        <rect key="frame" x="152" y="0.0" width="136" height="36"/>
+                                        <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="36" id="5Bu-RR-tS6"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Kurale-Regular" family="Kurale" pointSize="16"/>
+                                        <state key="normal" title="Complete Payment">
+                                            <color key="titleColor" name="DarkText"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="18"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="applyShadow" value="YES"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="93U-sF-Aa7" firstAttribute="width" secondItem="KUk-yx-kkd" secondAttribute="width" id="Bwn-eZ-Shk"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="CN9-Ui-A9c" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="BI9-fA-8s1" secondAttribute="trailing" constant="8" id="9Wr-au-41N"/>
+                            <constraint firstAttribute="trailing" secondItem="Lwu-mL-LTz" secondAttribute="trailing" constant="16" id="Fbo-i1-cTS"/>
+                            <constraint firstItem="6ub-q5-zxi" firstAttribute="leading" secondItem="k1X-Ag-3qd" secondAttribute="leading" id="YF2-hT-hNf"/>
+                            <constraint firstItem="BI9-fA-8s1" firstAttribute="leading" secondItem="k1X-Ag-3qd" secondAttribute="leading" constant="16" id="bAd-jL-vHg"/>
+                            <constraint firstAttribute="trailing" secondItem="CN9-Ui-A9c" secondAttribute="trailing" constant="16" id="jRa-lX-hgG"/>
+                            <constraint firstItem="Lwu-mL-LTz" firstAttribute="top" secondItem="6ub-q5-zxi" secondAttribute="bottom" constant="2" id="nMM-Je-6nv"/>
+                            <constraint firstItem="6ub-q5-zxi" firstAttribute="top" secondItem="BI9-fA-8s1" secondAttribute="bottom" constant="8" symbolic="YES" id="ovS-Md-PkC"/>
+                            <constraint firstAttribute="bottom" secondItem="Lwu-mL-LTz" secondAttribute="bottom" constant="12.5" id="vzu-11-XLg"/>
+                            <constraint firstItem="Lwu-mL-LTz" firstAttribute="leading" secondItem="k1X-Ag-3qd" secondAttribute="leading" constant="16" id="wid-1s-uwH"/>
+                            <constraint firstItem="BI9-fA-8s1" firstAttribute="top" secondItem="k1X-Ag-3qd" secondAttribute="top" constant="8" id="xGg-3s-6z7"/>
+                            <constraint firstAttribute="trailing" secondItem="6ub-q5-zxi" secondAttribute="trailing" id="yB5-0I-M5Y"/>
+                            <constraint firstItem="CN9-Ui-A9c" firstAttribute="top" secondItem="k1X-Ag-3qd" secondAttribute="top" constant="8" id="zUs-IJ-kD2"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="k1X-Ag-3qd" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="4wG-Rb-uTh"/>
+                    <constraint firstAttribute="bottom" secondItem="k1X-Ag-3qd" secondAttribute="bottom" id="Z6G-D2-Bgb"/>
+                    <constraint firstItem="k1X-Ag-3qd" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="gKf-f6-4Z1"/>
+                    <constraint firstAttribute="trailing" secondItem="k1X-Ag-3qd" secondAttribute="trailing" id="x75-j4-KUi"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="cancelBtn" destination="KUk-yx-kkd" id="SVw-xq-qsW"/>
+                <outlet property="comfirmBtn" destination="93U-sF-Aa7" id="fax-Tv-mZU"/>
+                <outlet property="firstProductBackView" destination="9qw-mL-8GH" id="sqP-4x-ZUh"/>
+                <outlet property="orderLbl" destination="BI9-fA-8s1" id="ZS8-pw-Nla"/>
+                <outlet property="paymentStatusLbl" destination="CN9-Ui-A9c" id="zZo-Rb-Xr1"/>
+                <outlet property="product1AmountLbl" destination="1U8-ER-KcV" id="V2X-gC-E6g"/>
+                <outlet property="product1ImgView" destination="Fd5-20-21m" id="wYi-cw-j5K"/>
+                <outlet property="product1QuantityLbl" destination="AJ1-03-nuT" id="M7t-RK-XHR"/>
+                <outlet property="product2AmountLbl" destination="k4I-5k-xyt" id="JRd-kd-hvY"/>
+                <outlet property="product2ImgView" destination="L7h-tP-ghA" id="H4v-s9-OhD"/>
+                <outlet property="product2NameLbl" destination="n4a-sv-JgP" id="Hll-ge-sdd"/>
+                <outlet property="product2QuantityLbl" destination="q2E-Of-KQl" id="zk3-st-1NQ"/>
+                <outlet property="productn1NameLbl" destination="tt8-YA-XOX" id="paW-vA-LUj"/>
+                <outlet property="secondProductBackView" destination="IAP-R3-74X" id="6ei-AT-wZ7"/>
+            </connections>
+            <point key="canvasLocation" x="140.57971014492756" y="116.18303571428571"/>
+        </tableViewCell>
+    </objects>
+    <designables>
+        <designable name="93U-sF-Aa7">
+            <size key="intrinsicContentSize" width="138" height="31"/>
+        </designable>
+        <designable name="KUk-yx-kkd">
+            <size key="intrinsicContentSize" width="50" height="31"/>
+        </designable>
+    </designables>
+    <resources>
+        <namedColor name="DarkText">
+            <color red="0.14100000262260437" green="0.15299999713897705" blue="0.16899999976158142" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="LightText">
+            <color red="0.34099999070167542" green="0.34900000691413879" blue="0.36100000143051147" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray5Color">
+            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
